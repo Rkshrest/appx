@@ -7,14 +7,16 @@ class LoginSelector extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xff000000),
+      backgroundColor: const Color(0xff000000), // background color for screen
       body: Column(
         children: [
           SizedBox(
+            // * * the logo on the top of the screen
             child: SvgPicture.asset("assets/icons/Logo.svg"),
             height: MediaQuery.of(context).size.height * .4,
           ),
           const SizedBox(
+            // * * title
             width: double.infinity,
             child: Text(
               "Get Socialized in Profession way",
@@ -23,6 +25,7 @@ class LoginSelector extends StatelessWidget {
             ),
           ),
           const Padding(
+            // * *  subtitle
             padding: EdgeInsets.all(16.0),
             child: Text(
               "Manage your profession.\nSeamlessly.",
@@ -31,6 +34,7 @@ class LoginSelector extends StatelessWidget {
             ),
           ),
           const SizedBox(
+            // * * spacing b/w buttons and text
             height: 40,
           ),
           Padding(
