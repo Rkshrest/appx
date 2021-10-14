@@ -1,3 +1,4 @@
+import 'package:appx/views/Onboarding/onboarding.dart';
 import 'package:appx/views/auth/login_selector.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const LoginSelector(),
+      home: Onbarding(),
     );
   }
 }
