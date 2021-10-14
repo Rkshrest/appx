@@ -1,4 +1,4 @@
-import 'package:appx/views/auth/login.dart';
+import 'package:appx/views/auth/login_selector.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
