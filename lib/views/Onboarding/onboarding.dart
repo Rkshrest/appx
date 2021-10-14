@@ -1,3 +1,4 @@
+import 'package:appx/views/Onboarding/Common/onboard_image_and_title.dart';
 import 'package:flutter/material.dart';
 
 class Onbarding extends StatefulWidget {
@@ -44,82 +45,22 @@ class _OnbardingState extends State<Onbarding> {
               onPageChanged: (indx) => setState(() {
                 current = indx;
               }),
-              children: [
-                Column(
-                  children: const [
-                    Padding(
-                      padding: EdgeInsets.all(16.0),
-                      child: Placeholder(
-                        color: Colors.white,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        "Presereve Memories",
-                        style: TextStyle(
-                            fontSize: 28, fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                    Text("kyaaa kar rahe hoo")
-                  ],
+              children: const [
+                ImageHeader(
+                  title: "Express Yourself",
+                  subTitle: "Create a presence in world of social media",
                 ),
-                Column(
-                  children: const [
-                    Padding(
-                      padding: EdgeInsets.all(16.0),
-                      child: Placeholder(
-                        color: Colors.white,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        "Presereve Memories",
-                        style: TextStyle(
-                            fontSize: 28, fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                    Text("hal chaal theek hai?")
-                  ],
+                ImageHeader(
+                  title: "Express Yourself",
+                  subTitle: "Create a presence in world of social media",
                 ),
-                Column(
-                  children: const [
-                    Padding(
-                      padding: EdgeInsets.all(16.0),
-                      child: Placeholder(
-                        color: Colors.white,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        "Presereve Memories",
-                        style: TextStyle(
-                            fontSize: 28, fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                    Text("isko complete kardo pls")
-                  ],
+                ImageHeader(
+                  title: "Express Yourself",
+                  subTitle: "Create a presence in world of social media",
                 ),
-                Column(
-                  children: const [
-                    Padding(
-                      padding: EdgeInsets.all(16.0),
-                      child: Placeholder(
-                        color: Colors.white,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        "Presereve Memories",
-                        style: TextStyle(
-                            fontSize: 28, fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                    Text("you are not doing it XD")
-                  ],
+                ImageHeader(
+                  title: "Express Yourself",
+                  subTitle: "Create a presence in world of social media",
                 ),
               ],
             ),
