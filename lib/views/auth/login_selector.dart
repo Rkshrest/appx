@@ -11,7 +11,7 @@ class LoginSelector extends StatelessWidget {
       body: Column(
         children: [
           SizedBox(
-            // color: Colors.red,
+            child: SvgPicture.asset("assets/icons/Logo.svg"),
             height: MediaQuery.of(context).size.height * .4,
           ),
           const SizedBox(
@@ -102,8 +102,6 @@ class LoginSelector extends StatelessWidget {
                       decoration: TextDecoration.underline,
                     ),
                   ),
-
-                  // padding: const EdgeInsets.all(4),
                   onPressed: () {},
                 )
               ],
