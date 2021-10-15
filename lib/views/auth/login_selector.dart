@@ -1,5 +1,8 @@
+import 'package:appx/views/auth/data/login.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
+import 'package:get/get.dart';
 
 class LoginSelector extends StatelessWidget {
   const LoginSelector({Key? key}) : super(key: key);
@@ -106,7 +109,10 @@ class LoginSelector extends StatelessWidget {
                       decoration: TextDecoration.underline,
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Get.to(() => const LoginDataGetter(),
+                        transition: Transition.rightToLeftWithFade);
+                  },
                 )
               ],
             ),

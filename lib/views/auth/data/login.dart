@@ -1,4 +1,6 @@
+import 'package:appx/views/auth/data/signup.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class LoginDataGetter extends StatelessWidget {
   const LoginDataGetter({Key? key}) : super(key: key);
@@ -12,7 +14,9 @@ class LoginDataGetter extends StatelessWidget {
           icon: const Icon(
             Icons.close,
           ),
-          onPressed: () {},
+          onPressed: () {
+            Get.back();
+          },
         ),
         actions: [
           IconButton(
@@ -138,7 +142,13 @@ class LoginDataGetter extends StatelessWidget {
                         decoration: TextDecoration.underline,
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.back();
+                      Get.to(
+                        () => const SignupDataGetter(),
+                        transition: Transition.leftToRightWithFade,
+                      );
+                    },
                   )
                 ],
               ),
