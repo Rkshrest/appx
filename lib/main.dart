@@ -1,5 +1,5 @@
-import 'package:appx/views/Onboarding/onboarding.dart';
-import 'package:appx/views/auth/login_selector.dart';
+// import 'package:appx/views/Onboarding/onboarding.dart';
+import 'package:appx/views/auth/data/login.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -13,14 +13,20 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       theme: ThemeData(
-        primaryColorDark: const Color(0xff282a36),
+        brightness: Brightness.dark,
+        primaryColor: Colors.grey,
+        primaryColorDark: Colors.grey,
+        appBarTheme: const AppBarTheme(
+          elevation: 0.0,
+          backgroundColor: Colors.black,
+        ),
         textTheme: const TextTheme(
           bodyText2: TextStyle(
             color: Colors.white,
           ),
         ),
       ),
-      home: Onbarding(),
+      home: const LoginDataGetter(),
     );
   }
 }
