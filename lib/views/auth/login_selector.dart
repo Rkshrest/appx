@@ -1,4 +1,5 @@
 import 'package:appx/views/auth/data/login.dart';
+import 'package:appx/views/auth/data/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -44,22 +45,28 @@ class LoginSelector extends StatelessWidget {
             padding: const EdgeInsets.all(16.0),
             child: Column(
               children: [
-                Container(
-                  width: double.infinity,
-                  height: 50,
-                  child: const Center(
-                    child: Text(
-                      "Sign Up with Email ID",
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
+                InkWell(
+                  onTap: () {
+                    Get.to(() => const SignupDataGetter(),
+                        transition: Transition.rightToLeftWithFade);
+                  },
+                  child: Container(
+                    width: double.infinity,
+                    height: 50,
+                    child: const Center(
+                      child: Text(
+                        "Sign Up with Email ID",
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
-                  ),
-                  decoration: const BoxDecoration(
-                    color: Color(0xff5E5CE5),
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(5),
+                    decoration: const BoxDecoration(
+                      color: Color(0xff5E5CE5),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(5),
+                      ),
                     ),
                   ),
                 ),
