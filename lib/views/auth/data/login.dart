@@ -1,6 +1,6 @@
 import 'package:appx/views/auth/data/signup.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'package:page_transition/page_transition.dart';
 
 class LoginDataGetter extends StatelessWidget {
   const LoginDataGetter({Key? key}) : super(key: key);
@@ -15,7 +15,8 @@ class LoginDataGetter extends StatelessWidget {
             Icons.close,
           ),
           onPressed: () {
-            Get.back();
+            // Get.back();
+            Navigator.pop(context);
           },
         ),
         actions: [
@@ -143,10 +144,12 @@ class LoginDataGetter extends StatelessWidget {
                       ),
                     ),
                     onPressed: () {
-                      Get.back();
-                      Get.to(
-                        () => const SignupDataGetter(),
-                        transition: Transition.leftToRightWithFade,
+                      Navigator.pushReplacement(
+                        context,
+                        PageTransition(
+                          child: const SignupDataGetter(),
+                          type: PageTransitionType.leftToRightWithFade,
+                        ),
                       );
                     },
                   )

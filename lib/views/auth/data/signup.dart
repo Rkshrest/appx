@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 class SignupDataGetter extends StatelessWidget {
   const SignupDataGetter({Key? key}) : super(key: key);
@@ -14,7 +13,8 @@ class SignupDataGetter extends StatelessWidget {
             Icons.close,
           ),
           onPressed: () {
-            Get.back();
+            // Get.back();
+            Navigator.pop(context);
           },
         ),
         actions: [

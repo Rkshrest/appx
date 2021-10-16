@@ -2,7 +2,6 @@
 import 'package:appx/views/auth/data/login.dart';
 import 'package:appx/views/auth/login_selector.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 void main() => runApp(const MyApp());
 
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       theme: ThemeData(

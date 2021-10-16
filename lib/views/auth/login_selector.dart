@@ -2,8 +2,7 @@ import 'package:appx/views/auth/data/login.dart';
 import 'package:appx/views/auth/data/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
-import 'package:get/get.dart';
+import 'package:page_transition/page_transition.dart';
 
 class LoginSelector extends StatelessWidget {
   const LoginSelector({Key? key}) : super(key: key);
@@ -47,8 +46,13 @@ class LoginSelector extends StatelessWidget {
               children: [
                 InkWell(
                   onTap: () {
-                    Get.to(() => const SignupDataGetter(),
-                        transition: Transition.rightToLeftWithFade);
+                    Navigator.push(
+                      context,
+                      PageTransition(
+                        child: const SignupDataGetter(),
+                        type: PageTransitionType.rightToLeftWithFade,
+                      ),
+                    );
                   },
                   child: Container(
                     width: double.infinity,
@@ -117,8 +121,13 @@ class LoginSelector extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {
-                    Get.to(() => const LoginDataGetter(),
-                        transition: Transition.rightToLeftWithFade);
+                    Navigator.push(
+                      context,
+                      PageTransition(
+                        child: const LoginDataGetter(),
+                        type: PageTransitionType.rightToLeftWithFade,
+                      ),
+                    );
                   },
                 )
               ],
