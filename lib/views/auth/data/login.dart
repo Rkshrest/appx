@@ -129,7 +129,7 @@ class LoginDataGetter extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(32.0),
+              padding: const EdgeInsets.all(16.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
