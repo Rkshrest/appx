@@ -1,6 +1,7 @@
 # appx
 
-a software to connect you and your friends and others
+a software to connect you and your friends and others,
+are you guys also just tensed over the overuse of social media so we have a solution, appx (name not decided yet)
 
 ## Getting Started
 
@@ -17,7 +18,16 @@ everybody is free to contribute. happy coding.
  - Firebase
  - Agora / custion api for feed and other things
  - https://deta.sh/ as hosting and cloud storage 
+## design 
+<br/>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hybriddevs/appx/main/final.webp" />
+</p>
+<br/>
+<br/>
+### Note
+this is not our design so thnx to maker of it
 ## Money
 
 this is a opensource project so its clear that we cant play .
@@ -30,5 +40,5 @@ if you need any help you can join our (Antern's) discord server.
 we are not related to antern just have friendly relations to them.
 
 # final
-
+this repo is no where near it's final stage it's just a  beginning to a revolution and 
 pls pls make this repo a hit and contribute make social media easy and better .thnx
