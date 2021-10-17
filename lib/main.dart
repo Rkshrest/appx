@@ -1,6 +1,7 @@
 // import 'package:appx/views/Onboarding/onboarding.dart';
 import 'package:appx/views/auth/data/login.dart';
 import 'package:appx/views/auth/login_selector.dart';
+import 'package:appx/views/home/home.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const LoginSelector(),
+      home: const HomeScreen(),
     );
   }
 }
