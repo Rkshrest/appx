@@ -26,8 +26,11 @@ everybody is free to contribute. happy coding.
 </p>
 <br/>
 <br/>
+
 ### Note
+
 this is not our design so thnx to maker of it
+
 ## Money
 
 this is a opensource project so its clear that we cant play .
