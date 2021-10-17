@@ -11,12 +11,12 @@ hey everybody this is a opensource application to protect you guys from the domi
 everybody is free to contribute. happy coding.
 
 ## Tech stack 
-Tech stack:
-Flutter
-Python (API)
-Firebase
-Agora / custion api for feed and other things
-https://deta.sh/ as hosting and cloud storage 
+ - Tech stack:
+ - Flutter
+ - Python (API)
+ - Firebase
+ - Agora / custion api for feed and other things
+ - https://deta.sh/ as hosting and cloud storage 
 
 ## Money
 
