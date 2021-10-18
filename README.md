@@ -7,6 +7,9 @@ are you guys also just tensed over the overuse of social media so we have a solu
 
 hey everybody this is a opensource application to protect you guys from the dominance of big tech giants this applications motive is to help you all guys meet other people with similar intrests and help to manage your professional and personal life on social media at a single place.
 
+## usage and dev
+The useage and development guide will be available soon
+
 ### Contributing 
 
 everybody is free to contribute. happy coding.
