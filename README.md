@@ -37,7 +37,7 @@ this is a opensource project so its clear that we cant play .
 
 ## help
 
-if you need any help you can join our (Antern's) ![discord](https://discord.gg/Hnk3zEjT) server.
+if you need any help you can join our (Antern's) [discord](https://discord.gg/Hnk3zEjT) server.
 
 ### Notice
 we are not related to antern just have friendly relations to them.
