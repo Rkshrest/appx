@@ -5,8 +5,7 @@ are you guys also just tensed over the overuse of social media so we have a solu
 
 ## Getting Started
 
-hey everybody this is a opensource application to protect you guys from the dominance of big tech giants this applications motive is to help you all guys meet other people with similar intrests and help to manage your professional and personal life on social media at a single place.
-
+Hey Everybody! This is an opensource application to protect you guys from the dominance of Big Tech Giants! This application's motive is to help you guys meet other people having similar interests as yours , and help you to manage your professional and personal life on social media at a Single Place!
 ## usage and dev
 The useage and development guide will be available soon
 
